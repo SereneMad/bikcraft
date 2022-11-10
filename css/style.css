@@ -230,6 +230,8 @@ a {
 
 header {
     background-color: #000;
+    position: fixed;
+    width: 100%;
 }
 
 .header_wrapper {
@@ -307,4 +309,62 @@ header {
     -o-transition: transform 0.25s;
     transition: transform 0.25s;
     transition: transform 0.25s, -webkit-transorm 0.25s;
+}
+
+.page {
+
+}
+
+.intro_bg {
+    background-color: #000000;
+}
+
+.intro_wrapper {
+    margin-top: 96px;
+}
+
+.intro_left {
+    
+}
+
+.intro_left h1 {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.intro_left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 150% */
+    color: #B3B3B3;
+}
+
+.intro_left button {
+    width: 217px;
+    height: 55.86px;
+    left: 205px;
+    top: 612px;
+
+    /* Gradiente */
+
+    background: linear-gradient(180deg, #FFBB00 0%, #F2A60C 100%);
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-transform: uppercase;
+
+    color: #332200;
 }
